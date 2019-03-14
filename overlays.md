@@ -1125,7 +1125,7 @@ in at least two different ways. The first is to blur the distinction
 between server load and network proximity by monitoring how long a
 server takes to respond to requests and using this measurement as the
 "server load" parameter in the preceding algorithm. This strategy tends
-to prefer loaded servers over distant/heavily loaded servers. A second
+to prefer nearby/lightly loaded servers over distant/heavily loaded servers. A second
 approach is to factor proximity into the decision at an earlier stage by
 limiting the candidate set of servers considered by the above algorithms
 ($$S$$) to only those that are nearby. The harder problem is deciding
